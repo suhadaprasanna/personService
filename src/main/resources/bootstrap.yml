@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: gdc-person-service
+    profiles:
+        active : dev
+    cloud:
+      config:
+        enabled: true
+        uri: http://localhost:8888/
+
+server:
+  port: 8183
